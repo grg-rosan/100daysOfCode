@@ -1,14 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  box-sizing: border-box;
-  font-size: 10px;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -18,15 +11,8 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  outline: 1px solid red;
-
 }
 
-.flex{
-  display: flex;
-  align-items: center;
-
-}
 a {
   font-weight: 500;
   color: #646cff;
@@ -39,7 +25,9 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  overflow-x: hidden;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
 }
 
 h1 {

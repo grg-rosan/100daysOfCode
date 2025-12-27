@@ -6,6 +6,7 @@ import RootLayout from './layout/RootLayout'
 import Home from './pages/Home'
 import Contacts from './pages/Contacts'
 import About from './pages/About'
+import Cart from './pages/Cart'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route index element={<Home/>} />
         <Route path='about' element={<About/>} />
         <Route path='contacts' element={<Contacts/>} />
+        <Route path='cart' element={<Cart/>} />
 
       </Route>
     )
