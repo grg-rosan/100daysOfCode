@@ -1,0 +1,11 @@
+:root{
+  box-sizing: border-box;
+  font-size: 10px;
+
+}
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:1.6rem;
+}
