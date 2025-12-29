@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ProductCard from "../component/ProductCard";
+import "../css/Home.css"
 
 const Home = () => {
   const [data, setData] = useState([]);
@@ -17,7 +18,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
+    <div  className="product-grid">
       {loading ? (
         <h2>Loading</h2>
       ) : data.length > 0 ? (

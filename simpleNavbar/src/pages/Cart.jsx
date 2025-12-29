@@ -1,8 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Cart = () => {
+
+  const [cart, setCart] = useState([]);
+
+  const addToCart = ( {product} ) =() =>{
+    setCart(product);
+  }
+
   return (
-    <div>Cart</div>
+    <div>
+
+    </div>
   )
 }
 
