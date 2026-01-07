@@ -1,15 +1,14 @@
 import PriButton from "./PriButton";
 import "../css/ProductCard.css";
+import { useCart } from "../context/CartContext";
 
 const ProductCard = ({ product }) => {
-  const addToCart = (product) => {
-    console.log("added to cart", product);
-  };
-
+    const {  addToCart } = useCart();
+  
   return (
     <div className="product-card">
       <div className="image-wrapper">
-        <img src={product.image} alt={product.title} />
+        <img src={product.images[0]} alt={product.title} />
       </div>
 
       <div className="product-info">

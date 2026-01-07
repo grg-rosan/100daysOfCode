@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../Background.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 500px;
+    aspect-ratio: 1;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.142);
+    backdrop-filter: blur(7px);
+     border-top:1px solid rgba(255, 255,255, 0.4);
+    border-left:1px solid rgba(255, 255,255, 0.4);
+    border-right: 1px solid rgba(255, 255,255, 0.4);
+}
+label{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}
+input{
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    padding: 3px 5px;
+    border-radius: 8px;
+    background-color: rgba(220, 225, 229, 0.559);
+    border: none;
+}
+button{
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: azure;
+    padding: 6px 9px;
+    margin-top: 20px;
+    transition: ease-in 0.4s;
+}
+button:hover{
+    background-color: aqua;
+    transform: scale(1.1);
+}
